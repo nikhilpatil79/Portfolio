@@ -8,7 +8,7 @@ import { FaExternalLinkAlt, FaGithub, FaTimes, FaStar } from 'react-icons/fa'
 const projects = [
     {
         id: 1,
-        title: 'AgriTech SAAS Platform',
+        title: 'AgriTech SaaS Platform',
         emoji: '⭐',
         featured: true,
         description: 'Comprehensive MERN-stack platform for agricultural management serving farmers, agronomists, and admins',
