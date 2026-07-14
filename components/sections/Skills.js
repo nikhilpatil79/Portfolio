@@ -3,7 +3,7 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
 import {
-    SiPython, SiJavascript, SiHtml5, SiCss3,
+    SiPython, SiJavascript, SiHtml5, SiCss,
     SiReact, SiNextdotjs, SiTailwindcss, SiBootstrap,
     SiNodedotjs, SiExpress,
     SiTensorflow, SiOpencv, SiScikitlearn,
@@ -28,7 +28,7 @@ const skillsWithProgress = [
     { name: 'Docker', icon: SiDocker, color: 'text-blue-600', level: 82, years: 2, category: 'Advanced' },
     { name: 'Next.js', icon: SiNextdotjs, color: 'text-gray-900 dark:text-white', level: 88, years: 2, category: 'Advanced' },
     { name: 'HTML', icon: SiHtml5, color: 'text-orange-500', level: 95, years: 4, category: 'Advanced' },
-    { name: 'CSS', icon: SiCss3, color: 'text-blue-600', level: 93, years: 4, category: 'Advanced' },
+    { name: 'CSS', icon: SiCss, color: 'text-blue-600', level: 93, years: 4, category: 'Advanced' },
 
     // Proficient Level (70-79%)
     { name: 'React Native', icon: SiReact, color: 'text-cyan-400', level: 78, years: 2, category: 'Proficient' },
@@ -46,7 +46,7 @@ const skillCategories = [
             { name: 'Python', icon: SiPython, color: 'text-blue-500' },
             { name: 'JavaScript', icon: SiJavascript, color: 'text-yellow-500' },
             { name: 'HTML', icon: SiHtml5, color: 'text-orange-500' },
-            { name: 'CSS', icon: SiCss3, color: 'text-blue-600' },
+            { name: 'CSS', icon: SiCss, color: 'text-blue-600' },
             { name: 'Java', icon: FaJava, color: 'text-red-500' },
         ],
     },

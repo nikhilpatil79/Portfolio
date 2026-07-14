@@ -5,6 +5,11 @@ const nextConfig = {
     unoptimized: true,
   },
   reactStrictMode: true,
+  async rewrites() {
+    return [
+      { source: '/study-guide', destination: '/study-guide.html' },
+    ]
+  },
 }
 
 module.exports = nextConfig

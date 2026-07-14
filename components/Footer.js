@@ -13,6 +13,7 @@ const quickLinks = [
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Concept Map', href: '#concept-map' },
     { name: 'Contact', href: '#contact' },
 ]
 
