@@ -212,8 +212,8 @@
 <header class="hero">
   <div class="wrap hero-inner">
     <p class="eyebrow">Resume → Concept Map</p>
-    <h1>Everything on your resume, and the concepts behind it</h1>
-    <p class="lede">A study reference built from your CV — every skill, framework, and buzzword expanded into what it actually means, the sub-concepts to know, and the question you'll get asked about it. Search it, filter by area, and use it to prep.</p>
+    <h1>Everything on my resume, and the concepts behind it</h1>
+    <p class="lede">A study reference built from my CV — every skill, framework, and buzzword expanded into what it actually means, the sub-concepts to know, and the question I'll get asked about it. Search it, filter by area, and use it to prep.</p>
     <div class="meta-row">
       <span class="stat"><b>8</b> areas</span>
       <span class="stat"><b>60+</b> concepts</span>
@@ -247,7 +247,7 @@
 
   <!-- ============ GENAI ============ -->
   <section class="cat" data-cat="genai" style="--cat: var(--c-genai)" id="genai">
-    <div class="cat-head"><span class="cat-num">01</span><h2>AI / GenAI</h2><span class="cat-tag">the core of your profile</span></div>
+    <div class="cat-head"><span class="cat-num">01</span><h2>AI / GenAI</h2><span class="cat-tag">the core of my profile</span></div>
     <div class="grid">
 
       <article class="card">
@@ -286,7 +286,7 @@
           <li><b>Chain-of-thought</b> — "think step by step" to improve reasoning.</li>
           <li><b>System vs user vs assistant</b> roles.</li>
           <li><b>Structured output</b> — force JSON / schema.</li>
-          <li><b>Guardrails</b> — constraints to reduce hallucination (your resume line).</li>
+          <li><b>Guardrails</b> — constraints to reduce hallucination (my resume line).</li>
         </ul>
         <div class="ask"><span class="q">"How do you reduce hallucination?"</span>Ground with RAG, ask for citations, lower temperature, constrain to "answer only from context, else say you don't know."</div>
       </article>
@@ -314,7 +314,7 @@
           <li><b>Hybrid search</b> — combine keyword (BM25) + vector.</li>
           <li>Keyword search misses synonyms; semantic doesn't.</li>
         </ul>
-        <div class="ask"><span class="q">"Keyword vs semantic search?"</span>Keyword matches exact strings; semantic matches meaning ("car" ≈ "automobile"). Your resume claims semantic beat keyword on relevance.</div>
+        <div class="ask"><span class="q">"Keyword vs semantic search?"</span>Keyword matches exact strings; semantic matches meaning ("car" ≈ "automobile"). My resume claims semantic beat keyword on relevance.</div>
       </article>
 
       <article class="card">
@@ -350,7 +350,7 @@
         <ul>
           <li><b>Factory / adapter pattern</b> — abstract provider differences behind a common contract.</li>
           <li><b>Failover &amp; routing</b> — pick model by cost/latency/task.</li>
-          <li><b>Token usage tracking &amp; cost optimization</b> (your bullet).</li>
+          <li><b>Token usage tracking &amp; cost optimization</b> (my bullet).</li>
           <li>Normalize streaming, function-calling, and error formats across vendors.</li>
         </ul>
         <div class="ask"><span class="q">"Why abstract providers?"</span>Avoid vendor lock-in, route cheap tasks to cheap models (Groq/Gemini) and hard ones to premium (Claude/GPT).</div>
@@ -402,7 +402,7 @@
         <ul>
           <li><b>Function/tool calling</b> &amp; JSON mode.</li>
           <li><b>Schema validation</b> — Zod / Pydantic to enforce shape; retry on mismatch.</li>
-          <li><b>Async batch processing</b> (your bullet) — parallelize many LLM calls.</li>
+          <li><b>Async batch processing</b> (my bullet) — parallelize many LLM calls.</li>
           <li>Handles the "LLM returned almost-valid JSON" problem.</li>
         </ul>
         <div class="ask"><span class="q">"How do you guarantee valid JSON?"</span>Use the provider's structured-output/tool mode + validate with Pydantic/Zod and auto-retry on failure.</div>
@@ -425,7 +425,7 @@
 
   <!-- ============ AGENTS ============ -->
   <section class="cat" data-cat="agent" style="--cat: var(--c-agent)" id="agent">
-    <div class="cat-head"><span class="cat-num">02</span><h2>Agentic AI &amp; Orchestration</h2><span class="cat-tag">your Agentic SDLC project</span></div>
+    <div class="cat-head"><span class="cat-num">02</span><h2>Agentic AI &amp; Orchestration</h2><span class="cat-tag">my Agentic SDLC project</span></div>
     <div class="grid">
 
       <article class="card">
@@ -476,12 +476,12 @@
           <li>Higher-level / more opinionated than LangGraph.</li>
           <li>Good for quickly modeling a "team" of AI workers.</li>
         </ul>
-        <div class="ask"><span class="q">"CrewAI vs LangGraph?"</span>CrewAI = role-based team abstraction (fast to build); LangGraph = low-level graph control (more precise). You used both.</div>
+        <div class="ask"><span class="q">"CrewAI vs LangGraph?"</span>CrewAI = role-based team abstraction (fast to build); LangGraph = low-level graph control (more precise). I used both.</div>
       </article>
 
       <article class="card">
         <h3>Agentic SDLC Concepts</h3>
-        <p class="def">Automating the software lifecycle with agents — the theme of your flagship project.</p>
+        <p class="def">Automating the software lifecycle with agents — the theme of my flagship project.</p>
         <p class="label">Know</p>
         <ul>
           <li>Agents map to SDLC roles: <b>plan → code → review → test → deploy</b>.</li>
@@ -497,7 +497,7 @@
 
   <!-- ============ ML/DL ============ -->
   <section class="cat" data-cat="ml" style="--cat: var(--c-ml)" id="ml">
-    <div class="cat-head"><span class="cat-num">03</span><h2>Machine Learning &amp; Deep Learning</h2><span class="cat-tag">foundations + your CV bullets</span></div>
+    <div class="cat-head"><span class="cat-num">03</span><h2>Machine Learning &amp; Deep Learning</h2><span class="cat-tag">foundations + my CV bullets</span></div>
     <div class="grid">
 
       <article class="card">
@@ -515,8 +515,8 @@
       </article>
 
       <article class="card">
-        <h3>Ensemble Models (your sentiment app)</h3>
-        <p class="def">Combining multiple models for better accuracy — you used SVM, Naive Bayes, Random Forest.</p>
+        <h3>Ensemble Models (my sentiment app)</h3>
+        <p class="def">Combining multiple models for better accuracy — I used SVM, Naive Bayes, Random Forest.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>SVM</b> — finds max-margin decision boundary; kernels for non-linear.</li>
@@ -524,12 +524,12 @@
           <li><b>Random Forest</b> — bagged decision trees; robust, handles non-linearity.</li>
           <li><b>Bagging vs boosting vs voting/stacking.</b></li>
         </ul>
-        <div class="ask"><span class="q">"Why ensemble for sentiment?"</span>Different models capture different patterns; voting reduces individual weaknesses → your 90%+ accuracy claim.</div>
+        <div class="ask"><span class="q">"Why ensemble for sentiment?"</span>Different models capture different patterns; voting reduces individual weaknesses → my 90%+ accuracy claim.</div>
       </article>
 
       <article class="card">
         <h3>CNNs (Convolutional Neural Nets)</h3>
-        <p class="def">Deep nets for images — your plant-disease detector. Learn spatial features via filters.</p>
+        <p class="def">Deep nets for images — my plant-disease detector. Learn spatial features via filters.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Convolution + filters/kernels</b> detect edges→shapes→objects.</li>
@@ -542,7 +542,7 @@
 
       <article class="card">
         <h3>Text Preprocessing (NLP)</h3>
-        <p class="def">Turning raw text into model-ready features — the front of your sentiment pipeline.</p>
+        <p class="def">Turning raw text into model-ready features — the front of my sentiment pipeline.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Tokenization, stopword removal, stemming/lemmatization.</b></li>
@@ -555,7 +555,7 @@
 
       <article class="card">
         <h3>TensorFlow &amp; Keras</h3>
-        <p class="def">Google's DL framework; Keras is its high-level API. You used them for CV/DL.</p>
+        <p class="def">Google's DL framework; Keras is its high-level API. I used them for CV/DL.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Keras</b> — <code>Sequential</code> / functional API, layers, <code>model.fit()</code>.</li>
@@ -563,7 +563,7 @@
           <li>Loss, optimizer (Adam/SGD), epochs, batch size.</li>
           <li>Callbacks: early stopping, checkpoints.</li>
         </ul>
-        <div class="ask"><span class="q">"TensorFlow vs PyTorch?"</span>PyTorch = dynamic graphs, Pythonic, research-favored. TF = production/deployment ecosystem (TF Serving, Lite). You've touched both.</div>
+        <div class="ask"><span class="q">"TensorFlow vs PyTorch?"</span>PyTorch = dynamic graphs, Pythonic, research-favored. TF = production/deployment ecosystem (TF Serving, Lite). I've touched both.</div>
       </article>
 
       <article class="card">
@@ -573,14 +573,14 @@
         <ul>
           <li><b>PyTorch</b> — tensors, autograd, <code>nn.Module</code>, training loop, dynamic graphs.</li>
           <li><b>Scikit-Learn</b> — <code>fit/predict</code> API, pipelines, <code>GridSearchCV</code>, preprocessing, metrics.</li>
-          <li>Scikit for SVM/NB/RandomForest (your ensemble).</li>
+          <li>Scikit for SVM/NB/RandomForest (my ensemble).</li>
         </ul>
         <div class="ask"><span class="q">"When Scikit-Learn vs a DL framework?"</span>Scikit for classical/tabular/small data; PyTorch/TF for deep nets on images, text, large data.</div>
       </article>
 
       <article class="card">
         <h3>Hyperparameter Tuning</h3>
-        <p class="def">Systematically searching model settings for best performance — you cite it for 90%+ accuracy.</p>
+        <p class="def">Systematically searching model settings for best performance — I cite it for 90%+ accuracy.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Grid search vs random search vs Bayesian.</b></li>
@@ -614,7 +614,7 @@
 
       <article class="card">
         <h3>Qdrant</h3>
-        <p class="def">Open-source vector DB (Rust) — your Document QA project's store.</p>
+        <p class="def">Open-source vector DB (Rust) — my Document QA project's store.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Collections</b> of points (id + vector + payload).</li>
@@ -626,7 +626,7 @@
 
       <article class="card">
         <h3>Pinecone</h3>
-        <p class="def">Fully-managed cloud vector DB — used in your Agentic SDLC project.</p>
+        <p class="def">Fully-managed cloud vector DB — used in my Agentic SDLC project.</p>
         <p class="label">Know</p>
         <ul>
           <li>Serverless, managed scaling — no infra to run.</li>
@@ -672,7 +672,7 @@
 
       <article class="card">
         <h3>Object Detection</h3>
-        <p class="def">Locating <em>and</em> classifying objects in an image with bounding boxes — the heart of your hazard system.</p>
+        <p class="def">Locating <em>and</em> classifying objects in an image with bounding boxes — the heart of my hazard system.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Detection vs classification vs segmentation.</b></li>
@@ -685,7 +685,7 @@
 
       <article class="card">
         <h3>YOLOv5</h3>
-        <p class="def">"You Only Look Once" — a fast single-stage detector. Your real-time hazard model.</p>
+        <p class="def">"You Only Look Once" — a fast single-stage detector. My real-time hazard model.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Single-stage</b> — one pass = real-time speed.</li>
@@ -698,7 +698,7 @@
 
       <article class="card">
         <h3>SSD (Single Shot Detector)</h3>
-        <p class="def">Another single-stage detector you paired with YOLO.</p>
+        <p class="def">Another single-stage detector I paired with YOLO.</p>
         <p class="label">Know</p>
         <ul>
           <li>Multi-scale feature maps → detects varied object sizes.</li>
@@ -723,7 +723,7 @@
 
       <article class="card">
         <h3>Real-Time Video Processing</h3>
-        <p class="def">Running inference on a live stream fast enough to act instantly — your safety/alert use case.</p>
+        <p class="def">Running inference on a live stream fast enough to act instantly — my safety/alert use case.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>FPS / latency</b> budget; frame skipping.</li>
@@ -744,7 +744,7 @@
 
       <article class="card">
         <h3>The MERN Stack</h3>
-        <p class="def">MongoDB + Express + React + Node — end-to-end JavaScript, your SAAS platforms.</p>
+        <p class="def">MongoDB + Express + React + Node — end-to-end JavaScript, my SAAS platforms.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>M</b>ongo (DB) · <b>E</b>xpress (API) · <b>R</b>eact (UI) · <b>N</b>ode (runtime).</li>
@@ -796,7 +796,7 @@
 
       <article class="card">
         <h3>FastAPI &amp; Flask</h3>
-        <p class="def">Python web frameworks — Flask (your sentiment app), FastAPI (your AI backends).</p>
+        <p class="def">Python web frameworks — Flask (my sentiment app), FastAPI (my AI backends).</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Flask</b> — minimal, WSGI, great for quick ML APIs.</li>
@@ -833,7 +833,7 @@
 
       <article class="card">
         <h3>REST APIs</h3>
-        <p class="def">The contract between your frontends and backends across every project.</p>
+        <p class="def">The contract between my frontends and backends across every project.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>HTTP verbs</b> (GET/POST/PUT/DELETE), status codes.</li>
@@ -854,7 +854,7 @@
 
       <article class="card">
         <h3>Python</h3>
-        <p class="def">Your primary AI/ML/backend language.</p>
+        <p class="def">My primary AI/ML/backend language.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Data structures</b> — list/dict/set/tuple; comprehensions.</li>
@@ -867,7 +867,7 @@
 
       <article class="card">
         <h3>JavaScript</h3>
-        <p class="def">The language of your MERN work — front and back end.</p>
+        <p class="def">The language of my MERN work — front and back end.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Closures, scope, hoisting, <code>this</code>.</b></li>
@@ -893,7 +893,7 @@
 
       <article class="card">
         <h3>Java, PHP, Dart</h3>
-        <p class="def">Secondary languages on your CV — know the one-liners.</p>
+        <p class="def">Secondary languages on my CV — know the one-liners.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Java</b> — statically typed, OOP, JVM, strong for enterprise/Android.</li>
@@ -926,7 +926,7 @@
 
       <article class="card">
         <h3>Git &amp; GitHub</h3>
-        <p class="def">Version control + collaboration — your daily workflow.</p>
+        <p class="def">Version control + collaboration — my daily workflow.</p>
         <p class="label">Know</p>
         <ul>
           <li><b>Commit, branch, merge, rebase, pull request.</b></li>
@@ -951,7 +951,7 @@
 
       <article class="card">
         <h3>Azure (Basics)</h3>
-        <p class="def">Microsoft's cloud — you list foundational familiarity.</p>
+        <p class="def">Microsoft's cloud — I list foundational familiarity.</p>
         <p class="label">Know</p>
         <ul>
           <li>Core: <b>compute (VMs/App Service), storage, networking.</b></li>
@@ -993,7 +993,7 @@
 
 <footer>
   <div class="wrap">
-    <p><b>How to use this:</b> Filter by area or search a term. For each concept, read the definition, master the "Know" bullets, and rehearse the "You'll be asked" answer out loud.</p>
+    <p><b>How to use this:</b> Filter by area or search a term. For each concept, read the definition, master the "Know" bullets, and rehearse the "I'll be asked" answer out loud.</p>
     <p>Built from Nikhil Patil's resume · Software Developer — GenAI &amp; Full Stack · a study reference, not a certificate.</p>
   </div>
 </footer>
@@ -1084,7 +1084,7 @@
     "CrewAI": "crewai",
     "Agentic SDLC Concepts": "agentic-sdlc",
     "Core ML Concepts": "core-ml",
-    "Ensemble Models (your sentiment app)": "ensemble",
+    "Ensemble Models (my sentiment app)": "ensemble",
     "CNNs (Convolutional Neural Nets)": "cnns",
     "Text Preprocessing (NLP)": "text-preprocessing",
     "TensorFlow & Keras": "tensorflow-keras",
@@ -1129,7 +1129,7 @@
   // Deep-dive content. Each entry: { intro, deep:[[term,expl]], resume, code:{lang,text}, qa:[[q,a]], related:[slug] }
   const DETAILS = {
     "llms": {
-      intro: "A Large Language Model is a transformer neural network with billions of parameters trained on a huge corpus of text with one deceptively simple objective: predict the next token. Everything else on the AI side of your resume — RAG, agents, prompt engineering — is a way of steering this next-token engine toward useful behaviour.",
+      intro: "A Large Language Model is a transformer neural network with billions of parameters trained on a huge corpus of text with one deceptively simple objective: predict the next token. Everything else on the AI side of my resume — RAG, agents, prompt engineering — is a way of steering this next-token engine toward useful behaviour.",
       deep: [
         ["Next-token prediction", "The model outputs a probability distribution over its vocabulary for the next token, samples one, appends it, and repeats. It has no database of facts — it reproduces statistical patterns from training, which is why it can be fluent and wrong at the same time."],
         ["Tokens", "Text is broken into subword units (roughly ~4 characters / 0.75 words in English). Context limits and API billing are counted in tokens, not words, so 'summarise this 50-page PDF' can blow a context window."],
@@ -1138,7 +1138,7 @@
         ["Pre-training vs fine-tuning", "Pre-training learns general language from raw text (expensive, done once). Fine-tuning nudges the weights on a smaller labelled set to specialise behaviour or format. RLHF aligns the model to human preferences on top."],
         ["Hallucination", "Confident, plausible, wrong output. It is a direct consequence of next-token prediction — the model optimises for likely, not true. Mitigated with grounding (RAG), citations, lower temperature, and 'answer only from context' instructions."]
       ],
-      resume: "Your provider-factory, RAG systems, text-to-SQL and agents all sit on top of LLM APIs. Being able to explain next-token prediction, context windows and temperature in plain English is table stakes for a GenAI role — interviewers use it to separate people who wired up an API from people who understand what they wired up.",
+      resume: "My provider-factory, RAG systems, text-to-SQL and agents all sit on top of LLM APIs. Being able to explain next-token prediction, context windows and temperature in plain English is table stakes for a GenAI role — interviewers use it to separate people who wired up an API from people who understand what they wired up.",
       qa: [
         ["What is temperature and when would you change it?", "It controls randomness of sampling. Use 0 for deterministic, factual tasks (classification, extraction, text-to-SQL); raise it to ~0.7–1.0 for creative writing or brainstorming where variety helps."],
         ["Why do LLMs hallucinate?", "Because they are trained to produce the statistically likely next token, not the true one. When the prompt lacks the needed information, the model still generates a fluent continuation — which may be fabricated. Grounding with retrieved context is the standard fix."],
@@ -1149,7 +1149,7 @@
     },
 
     "rag": {
-      intro: "Retrieval-Augmented Generation grounds an LLM in your own data. Instead of relying on what the model memorised during training, you retrieve the most relevant chunks from a knowledge base at query time and inject them into the prompt, so the model answers from facts you control. It is the single most important pattern on the AI side of your resume — your Document-QA and Agentic-SDLC projects both depend on it.",
+      intro: "Retrieval-Augmented Generation grounds an LLM in your own data. Instead of relying on what the model memorised during training, you retrieve the most relevant chunks from a knowledge base at query time and inject them into the prompt, so the model answers from facts you control. It is the single most important pattern on the AI side of my resume — my Document-QA and Agentic-SDLC projects both depend on it.",
       deep: [
         ["Ingestion (offline)", "Load documents → split into chunks → embed each chunk into a vector → store vectors + metadata in a vector DB (Qdrant / Pinecone / pgvector). Done once, ahead of time."],
         ["Retrieval (query time)", "Embed the user's question with the same model, run a similarity search for the top-k nearest chunks, optionally re-rank them, and optionally apply metadata filters (e.g. only this project's docs)."],
@@ -1159,7 +1159,7 @@
       ],
       code: { lang: "python", text:
 "# Minimal RAG loop\nq_vec = embed(question)                     # same model as ingestion\nhits = vector_db.search(q_vec, top_k=5)     # nearest chunks\ncontext = \"\\n\\n\".join(h.text for h in hits)\n\nprompt = f\"\"\"Answer using ONLY the context. If it is not there, say you don't know.\n\nContext:\n{context}\n\nQuestion: {question}\"\"\"\nanswer = llm.generate(prompt, temperature=0)" },
-      resume: "Your Document-QA app (Qdrant) and Agentic-SDLC platform (RAG over Jira/Confluence/GitHub via Pinecone) are both RAG systems. Expect the interviewer to walk the whole pipeline with you and probe the failure modes — 'what if retrieval returns the wrong chunk?' — so know that retrieval quality, not the LLM, is usually the bottleneck.",
+      resume: "My Document-QA app (Qdrant) and Agentic-SDLC platform (RAG over Jira/Confluence/GitHub via Pinecone) are both RAG systems. Expect the interviewer to walk the whole pipeline with you and probe the failure modes — 'what if retrieval returns the wrong chunk?' — so know that retrieval quality, not the LLM, is usually the bottleneck.",
       qa: [
         ["RAG vs fine-tuning — when do you pick which?", "RAG injects knowledge at query time — cheap, updatable, citable, good for facts that change. Fine-tuning bakes behaviour into the weights — good for style, format, or a narrow skill, but costly and static. They combine: fine-tune for behaviour, RAG for knowledge."],
         ["How do you reduce hallucination in a RAG system?", "Instruct the model to answer only from the retrieved context and to say 'I don't know' otherwise, lower the temperature, ask for citations to the source chunk, and improve retrieval (better chunking, re-ranking) so the right context is actually present."],
@@ -1176,11 +1176,11 @@
         ["Chain-of-thought (CoT)", "Asking the model to 'think step by step' or reason before answering improves accuracy on multi-step problems by giving it space to work. For production you often hide the reasoning and return only the final answer."],
         ["Roles: system / user / assistant", "The system message sets persona, rules and constraints; user messages are the human turns; assistant messages are the model's prior replies. Putting hard rules in the system message makes them stickier."],
         ["Structured output", "Instruct (or force via tool/JSON mode) the model to return a specific JSON shape so downstream code can parse it. Pair with schema validation and retry-on-failure."],
-        ["Guardrails", "Constraints that keep output safe and grounded: 'answer only from context', allow-lists, refusal instructions, output-length caps. This is the 'guardrails to reduce hallucination' line on your resume."]
+        ["Guardrails", "Constraints that keep output safe and grounded: 'answer only from context', allow-lists, refusal instructions, output-length caps. This is the 'guardrails to reduce hallucination' line on my resume."]
       ],
       code: { lang: "text", text:
 "System: You are a support assistant. Answer ONLY from the provided context.\n         If the answer is not in the context, reply exactly: \"I don't know.\"\n         Respond as JSON: {\"answer\": string, \"source\": string}\n\nUser:   Context: <retrieved chunks>\n         Question: How do I reset my password?" },
-      resume: "Your resume explicitly cites 'prompt engineering and guardrails to reduce hallucination'. Be ready to give a concrete before/after: a vague prompt that hallucinated, and the tightened version (role + context-only rule + JSON schema + few-shot) that fixed it.",
+      resume: "My resume explicitly cites 'prompt engineering and guardrails to reduce hallucination'. Be ready to give a concrete before/after: a vague prompt that hallucinated, and the tightened version (role + context-only rule + JSON schema + few-shot) that fixed it.",
       qa: [
         ["How do you get an LLM to reliably return valid JSON?", "Use the provider's structured-output / tool-calling / JSON mode rather than hoping, give a few-shot example of the exact shape, then validate the result with Pydantic or Zod and auto-retry on a parse or schema failure."],
         ["What is chain-of-thought and when is it worth it?", "Prompting the model to reason step by step before answering. Worth it for math, logic, and multi-hop questions; unnecessary overhead for simple classification or extraction where it just adds tokens."],
@@ -1201,7 +1201,7 @@
       ],
       code: { lang: "python", text:
 "import numpy as np\n\ndef cosine(a, b):\n    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))\n\nv_car  = embed(\"car\")\nv_auto = embed(\"automobile\")\ncosine(v_car, v_auto)   # ~0.9  -> close in meaning" },
-      resume: "Embeddings underpin every RAG and semantic-search claim on your CV. The classic follow-up is 'why cosine and not Euclidean?' — have the one-line answer ready, then be able to expand it.",
+      resume: "Embeddings underpin every RAG and semantic-search claim on my CV. The classic follow-up is 'why cosine and not Euclidean?' — have the one-line answer ready, then be able to expand it.",
       qa: [
         ["Why cosine similarity instead of Euclidean distance?", "Cosine measures the angle (direction) between vectors and ignores their magnitude, so it compares meaning independent of text length. Euclidean is sensitive to magnitude, which for text embeddings often just reflects length rather than semantics."],
         ["Can you compare embeddings from two different models?", "No — each model defines its own vector space, so vectors from different models aren't comparable. Always embed queries and documents with the same model, and re-embed everything if you switch models."],
@@ -1220,7 +1220,7 @@
         ["Hybrid search", "Combine keyword scoring (BM25) with vector similarity. Keyword nails exact terms, IDs and rare words; vectors catch synonyms and paraphrase. Together they beat either alone."],
         ["Metadata filtering", "Constrain the search with structured filters (date, author, project) so semantic match is combined with WHERE-style conditions."]
       ],
-      resume: "Your resume claims semantic search beat keyword search on relevance. Be ready to explain why (synonyms, paraphrase, intent) and to acknowledge where keyword still wins (exact IDs, codes, rare tokens) — which is exactly why hybrid search exists.",
+      resume: "My resume claims semantic search beat keyword search on relevance. Be ready to explain why (synonyms, paraphrase, intent) and to acknowledge where keyword still wins (exact IDs, codes, rare tokens) — which is exactly why hybrid search exists.",
       qa: [
         ["Keyword vs semantic search — what's the difference?", "Keyword search matches exact strings (and misses synonyms); semantic search matches meaning via embeddings, so 'car' finds 'automobile'. Keyword is precise on exact terms and IDs; semantic is better for natural-language intent."],
         ["What is ANN and why not exact search?", "Approximate Nearest Neighbour indexes (HNSW, IVF) find almost-nearest vectors far faster than scanning every vector. Exact search is O(n) and doesn't scale to millions of vectors; ANN gives near-exact results in milliseconds."],
@@ -1250,17 +1250,17 @@
     },
 
     "langchain": {
-      intro: "LangChain is a framework for building LLM applications by composing reusable pieces — prompts, models, retrievers, memory, tools and agents — instead of hand-wiring each provider's API. It standardises the plumbing behind RAG and agentic apps, which is why it shows up across your GenAI projects.",
+      intro: "LangChain is a framework for building LLM applications by composing reusable pieces — prompts, models, retrievers, memory, tools and agents — instead of hand-wiring each provider's API. It standardises the plumbing behind RAG and agentic apps, which is why it shows up across my GenAI projects.",
       deep: [
         ["Chains & LCEL", "A chain sequences steps (format prompt → call model → parse output). LangChain Expression Language (LCEL) lets you pipe components together with a clean operator syntax and get streaming/async/batching for free."],
         ["The RAG toolkit", "Document loaders (PDF, web, Notion…) → text splitters (chunking) → embeddings → vector stores → retrievers. This is the assembly line for building a RAG system quickly."],
         ["Memory", "Utilities to persist conversation state across turns — buffer memory, summary memory, or windowed history — so a chatbot remembers context without you managing it manually."],
         ["Tools & agents", "Wrap functions/APIs as tools and let an agent decide when to call them. LangGraph (its sibling) handles the stateful, cyclic version of this."],
-        ["Provider abstraction", "Swap OpenAI for Claude or Gemini by changing the model object, not the surrounding code — echoing your own multi-provider factory idea."]
+        ["Provider abstraction", "Swap OpenAI for Claude or Gemini by changing the model object, not the surrounding code — echoing my own multi-provider factory idea."]
       ],
       code: { lang: "python", text:
 "from langchain_core.prompts import ChatPromptTemplate\nfrom langchain_core.output_parsers import StrOutputParser\n\nprompt = ChatPromptTemplate.from_template(\"Summarise: {text}\")\nchain  = prompt | model | StrOutputParser()   # LCEL pipe\nchain.invoke({\"text\": document})" },
-      resume: "You list LangChain alongside LangGraph and CrewAI. The likely question is 'why a framework instead of raw API calls?' — answer that it standardises RAG/agent plumbing so you don't rebuild loaders, retrievers and memory per provider, while acknowledging the trade-off of an extra abstraction layer.",
+      resume: "I list LangChain alongside LangGraph and CrewAI. The likely question is 'why a framework instead of raw API calls?' — answer that it standardises RAG/agent plumbing so you don't rebuild loaders, retrievers and memory per provider, while acknowledging the trade-off of an extra abstraction layer.",
       qa: [
         ["Why use LangChain instead of calling the API directly?", "It gives you ready-made, provider-agnostic building blocks for RAG and agents — loaders, splitters, retrievers, memory, tool wrappers — so you assemble apps instead of reimplementing plumbing. The cost is an abstraction layer you must understand to debug."],
         ["What is LCEL?", "LangChain Expression Language — a piping syntax (prompt | model | parser) to compose components into a chain that supports streaming, async and batching out of the box."],
@@ -1271,17 +1271,17 @@
     },
 
     "multi-provider": {
-      intro: "A multi-provider LLM architecture puts a single, uniform interface in front of many model backends (OpenAI, Claude, Gemini, Groq) so your app code never depends on one vendor. This is the 'provider factory' on your resume — the adapter layer that normalises differences and lets you route each request to the best or cheapest model.",
+      intro: "A multi-provider LLM architecture puts a single, uniform interface in front of many model backends (OpenAI, Claude, Gemini, Groq) so your app code never depends on one vendor. This is the 'provider factory' on my resume — the adapter layer that normalises differences and lets you route each request to the best or cheapest model.",
       deep: [
         ["Factory / adapter pattern", "Define one common contract (generate, stream, embed) and implement an adapter per provider that translates to and from that provider's specific request/response format."],
         ["Routing", "Pick a model per request by task, cost, latency or quality — cheap open models (Groq/Gemini) for simple work, premium models (Claude/GPT) for hard reasoning."],
         ["Failover", "If a provider errors or rate-limits, automatically retry on a fallback provider so the app stays up. Requires normalising error formats across vendors."],
         ["Normalisation", "Streaming formats, function/tool-calling schemas, token-usage fields and error codes all differ per provider; the adapter hides those differences behind one shape."],
-        ["Cost & usage tracking", "Central place to count tokens and spend per provider/model — the 'token usage tracking and cost optimisation' line on your CV."]
+        ["Cost & usage tracking", "Central place to count tokens and spend per provider/model — the 'token usage tracking and cost optimisation' line on my CV."]
       ],
       code: { lang: "python", text:
 "class LLMProvider:                 # common contract\n    def generate(self, prompt): ...\n\nclass OpenAIProvider(LLMProvider): ...\nclass ClaudeProvider(LLMProvider): ...\n\ndef get_provider(name):            # the factory\n    return {\"openai\": OpenAIProvider,\n            \"claude\": ClaudeProvider}[name]()" },
-      resume: "This is one of your strongest talking points — it shows software-design maturity, not just API usage. Be ready to name the design pattern (factory/adapter/strategy), explain routing and failover, and justify it as avoiding vendor lock-in plus cost optimisation.",
+      resume: "This is one of my strongest talking points — it shows software-design maturity, not just API usage. Be ready to name the design pattern (factory/adapter/strategy), explain routing and failover, and justify it as avoiding vendor lock-in plus cost optimisation.",
       qa: [
         ["Why abstract multiple providers behind one interface?", "To avoid vendor lock-in, enable failover when a provider is down or rate-limited, and route each request to the model with the best cost/latency/quality fit — all without changing application code."],
         ["Which design pattern is that?", "A factory that builds provider-specific adapters implementing a shared interface (also described as the adapter or strategy pattern). App code depends on the abstraction, not the concrete provider."],
@@ -1292,13 +1292,13 @@
     },
 
     "provider-apis": {
-      intro: "These are the actual model endpoints your provider factory calls. Knowing what distinguishes OpenAI, Claude, Gemini and Groq — and the crucial fact that Groq is hardware, not a model — is a common quick check that you've worked with real GenAI systems rather than just one API.",
+      intro: "These are the actual model endpoints my provider factory calls. Knowing what distinguishes OpenAI, Claude, Gemini and Groq — and the crucial fact that Groq is hardware, not a model — is a common quick check that I've worked with real GenAI systems rather than just one API.",
       deep: [
         ["OpenAI", "GPT family plus embeddings and a mature ecosystem; strong function-calling and tooling, widely documented. Often the default baseline."],
         ["Claude (Anthropic)", "Strong reasoning and long context, robust tool use, and MCP-native. Good when you need careful, long-form or agentic work."],
         ["Gemini (Google)", "Multimodal (text, image, audio, video) with very large context windows; integrates with Google Cloud."],
         ["Groq", "Not a model family — an inference provider running open-source models on custom LPU hardware for extremely low latency. You choose Groq for speed, not for a new model."],
-        ["Common surface", "All expose chat/completion, most support streaming, tool/function calling and JSON modes — but with different request shapes, which is exactly what your provider factory normalises."]
+        ["Common surface", "All expose chat/completion, most support streaming, tool/function calling and JSON modes — but with different request shapes, which is exactly what my provider factory normalises."]
       ],
       resume: "The trap question here is 'what is Groq?' — many candidates assume it's a model. Nailing that it's an LPU hardware inference provider serving open models signals real hands-on experience.",
       qa: [
@@ -1321,7 +1321,7 @@
       ],
       code: { lang: "text", text:
 "System: You write read-only SQL for this schema:\n  customers(id, name, city)\n  orders(id, customer_id, total, created_at)\nRules: SELECT only. Never modify data.\n\nUser: How many orders did customers in Pune place last month?" },
-      resume: "If text-to-SQL is on your CV, the guaranteed question is about risk. Lead with safety: read-only role, query validation, allow-listed tables, and never trusting the model's SQL blindly.",
+      resume: "If text-to-SQL is on my CV, the guaranteed question is about risk. Lead with safety: read-only role, query validation, allow-listed tables, and never trusting the model's SQL blindly.",
       qa: [
         ["What's the biggest risk in text-to-SQL and how do you mitigate it?", "Unsafe or destructive queries. Mitigate with a read-only database role, parsing/validating the SQL before running it, allow-listing tables, and rejecting anything that isn't a SELECT."],
         ["How do you improve accuracy of generated SQL?", "Give the model only the relevant schema, add a few few-shot question→SQL examples for your database, and implement error-driven retry where the DB error is fed back for self-correction."],
@@ -1336,11 +1336,11 @@
       deep: [
         ["Client–server model", "The AI application is the MCP client (host); each MCP server exposes a set of capabilities. One host can connect to many servers."],
         ["Three primitives", "Servers expose tools (functions the model can call), resources (data/files it can read), and prompts (reusable templates). A model discovers and uses these through the protocol."],
-        ["Tool isolation", "Each server is a sandbox with a defined boundary, so capabilities are scoped and permissioned — the 'secure tool isolation' point on your resume."],
+        ["Tool isolation", "Each server is a sandbox with a defined boundary, so capabilities are scoped and permissioned — the 'secure tool isolation' point on my resume."],
         ["Standard transport", "Communication runs over stdio or HTTP/SSE with a defined message format, so any server is reusable across any MCP-compatible model or host."],
         ["Why it matters", "Write a GitHub or database MCP server once and every MCP client can use it — no per-app, per-model glue code."]
       ],
-      resume: "In your Agentic-SDLC project, MCP servers give agents secure, isolated access to tools like CI, repos and issue trackers. Frame MCP as the reason your tool integrations are reusable and sandboxed rather than hand-rolled per agent.",
+      resume: "In my Agentic-SDLC project, MCP servers give agents secure, isolated access to tools like CI, repos and issue trackers. Frame MCP as the reason your tool integrations are reusable and sandboxed rather than hand-rolled per agent.",
       qa: [
         ["Why use MCP instead of writing custom tool integrations?", "One protocol makes tools reusable, isolated and swappable across any model or host, instead of bespoke integrations rebuilt per app and per provider. Write the server once, reuse everywhere."],
         ["What does an MCP server expose?", "Three primitives: tools (callable functions), resources (readable data/files) and prompts (reusable templates), all over a standard transport."],
@@ -1356,12 +1356,12 @@
         ["Tool/function calling & JSON mode", "Providers offer modes that constrain generation to a supplied JSON schema or function signature, so the output is far more likely to be valid and shaped correctly."],
         ["Schema validation", "Validate the returned JSON against a schema with Pydantic (Python) or Zod (TS). If it fails, you catch it rather than crashing downstream."],
         ["Retry on mismatch", "When validation fails, feed the error back and retry, or fall back to a repair step — closing the 'almost-valid JSON' gap that plagues naive prompting."],
-        ["Async batch processing", "When you need many structured extractions, fire the LLM calls concurrently (async) and validate each result — the 'async batch processing' line on your CV."],
+        ["Async batch processing", "When you need many structured extractions, fire the LLM calls concurrently (async) and validate each result — the 'async batch processing' line on my CV."],
         ["Why it matters", "Structured output is the contract between the probabilistic LLM and your deterministic code; without it, integration is brittle."]
       ],
       code: { lang: "python", text:
 "from pydantic import BaseModel\n\nclass Contact(BaseModel):\n    name: str\n    email: str\n\n# provider returns JSON; validate + auto-retry on failure\ndata = call_llm(prompt, schema=Contact)   # raises -> retry if shape is wrong" },
-      resume: "Your CV mentions structured output, schema validation and async batch processing together — that trio says 'I make LLMs production-safe'. Be ready to explain how you guarantee valid JSON end to end.",
+      resume: "My CV mentions structured output, schema validation and async batch processing together — that trio says 'I make LLMs production-safe'. Be ready to explain how you guarantee valid JSON end to end.",
       qa: [
         ["How do you guarantee an LLM returns valid, correctly-shaped JSON?", "Use the provider's structured-output / tool-calling mode to constrain generation, then validate against a Pydantic or Zod schema and auto-retry (feeding the error back) on any mismatch. Don't trust raw text parsing."],
         ["What does Pydantic / Zod give you here?", "Runtime validation of the parsed object against a declared schema, with clear errors you can act on — so malformed output is caught at the boundary instead of corrupting downstream logic."],
@@ -1380,7 +1380,7 @@
         ["Conversation management", "Streaming pairs with managing message history, trimming to the context window, and summarising older turns so long chats stay within limits."],
         ["Backpressure & cancellation", "You need to handle the user navigating away or cancelling mid-stream so you stop billing tokens and free the connection."]
       ],
-      resume: "You list streaming responses and conversation management together. Know that SSE is the standard delivery mechanism and be able to explain why streaming improves perceived latency without changing actual throughput.",
+      resume: "I list streaming responses and conversation management together. Know that SSE is the standard delivery mechanism and be able to explain why streaming improves perceived latency without changing actual throughput.",
       qa: [
         ["How is LLM streaming typically delivered to a browser?", "Usually Server-Sent Events (SSE): the server keeps the HTTP connection open and flushes tokens as chunks, and the frontend appends them as they arrive. WebSockets are used when bidirectional communication is needed."],
         ["Does streaming make the model faster?", "No — total generation time is the same. It improves perceived latency by showing the first tokens almost immediately instead of waiting for the full response."],
@@ -1391,17 +1391,17 @@
     },
 
     "ai-agents": {
-      intro: "An AI agent is an LLM that doesn't just answer — it plans, calls tools, observes the results, and loops until a goal is met. The model becomes the reasoning core of a system that can actually take actions in the world. This is the foundation of your Agentic-SDLC project.",
+      intro: "An AI agent is an LLM that doesn't just answer — it plans, calls tools, observes the results, and loops until a goal is met. The model becomes the reasoning core of a system that can actually take actions in the world. This is the foundation of my Agentic-SDLC project.",
       deep: [
         ["The ReAct loop", "Reason → Act (call a tool) → Observe (read the result) → repeat. The LLM decides each next step based on what it has learned so far, rather than following a fixed script."],
         ["Tools / function calling", "How agents affect the world — search, run code, query a DB, hit an API. The model emits a structured tool call; your runtime executes it and returns the result."],
         ["Memory & state", "Short-term (the current scratchpad/conversation) and long-term (a vector store of past facts) memory let an agent stay coherent across many steps."],
         ["Planning", "Some agents explicitly plan (decompose a goal into sub-tasks) before acting; others plan implicitly step-by-step. Explicit planning helps on complex, multi-stage tasks."],
-        ["Specialised agents", "Rather than one do-everything agent, split responsibilities — Orchestrator, CodeGen, Review, QA, Deploy in your project — each with focused tools and context."]
+        ["Specialised agents", "Rather than one do-everything agent, split responsibilities — Orchestrator, CodeGen, Review, QA, Deploy in my project — each with focused tools and context."]
       ],
       code: { lang: "text", text:
 "Goal: Fix the failing test.\nThought: I should read the test file first.\nAction: read_file(\"test_auth.py\")\nObservation: <file contents>\nThought: The import path is wrong. I'll edit it.\nAction: edit_file(...)\nObservation: tests pass\nThought: Done." },
-      resume: "Agents are the centre of your flagship project. The core distinction interviewers probe is agent vs chain — an agent chooses its own next step dynamically, a chain runs fixed steps. Own that difference and the ReAct loop.",
+      resume: "Agents are the centre of my flagship project. The core distinction interviewers probe is agent vs chain — an agent chooses its own next step dynamically, a chain runs fixed steps. Own that difference and the ReAct loop.",
       qa: [
         ["What's the difference between an agent and a chain?", "A chain runs a fixed, predefined sequence of steps. An agent decides its own next step dynamically — reasoning about the current state and choosing which tool to call — looping until the goal is met."],
         ["What is the ReAct loop?", "Reason → Act → Observe → repeat: the model reasons about what to do, calls a tool, reads the result, and uses it to decide the next action, iterating toward the goal."],
@@ -1412,7 +1412,7 @@
     },
 
     "multi-agent": {
-      intro: "Multi-agent orchestration coordinates several specialised agents that delegate work, hand off tasks, and share context to solve a problem no single agent handles well alone. It's the architecture behind your agentic SDLC platform, where distinct agents own distinct phases.",
+      intro: "Multi-agent orchestration coordinates several specialised agents that delegate work, hand off tasks, and share context to solve a problem no single agent handles well alone. It's the architecture behind my agentic SDLC platform, where distinct agents own distinct phases.",
       deep: [
         ["Orchestrator / supervisor pattern", "One coordinating agent routes tasks to worker agents and assembles their outputs — the most common and controllable topology."],
         ["Topologies", "Sequential (a pipeline of agents), parallel (agents work simultaneously then merge), and hierarchical (managers delegate to sub-agents). Choice depends on task dependencies."],
@@ -1420,7 +1420,7 @@
         ["Error compounding", "Each agent handoff can introduce or amplify errors, so more agents isn't automatically better — you trade capability against latency, cost and reliability."],
         ["Human-in-the-loop", "Checkpoints where a person approves before high-risk actions (deploys, merges) keep the system safe."]
       ],
-      resume: "Your Orchestrator/CodeGen/Review/QA/Deploy design is a textbook supervisor-plus-workers system. Be ready to justify why multiple agents beat one prompt, and to acknowledge the cost — latency and error compounding — honestly.",
+      resume: "My Orchestrator/CodeGen/Review/QA/Deploy design is a textbook supervisor-plus-workers system. Be ready to justify why multiple agents beat one prompt, and to acknowledge the cost — latency and error compounding — honestly.",
       qa: [
         ["Why use multiple agents instead of one large prompt?", "Separation of concerns: each agent gets focused context and tools, improving reliability and debuggability. One giant prompt tries to juggle everything and degrades as complexity grows."],
         ["What is the orchestrator/supervisor pattern?", "A coordinating agent that receives the goal, routes sub-tasks to specialised worker agents, and combines their results — the most controllable multi-agent topology."],
@@ -1439,7 +1439,7 @@
         ["Human-in-the-loop", "You can pause the graph, get human approval, and resume — essential for high-stakes actions."],
         ["Determinism", "Because the control flow is explicit, LangGraph agents are more predictable and debuggable than a free-form 'let the LLM decide everything' agent."]
       ],
-      resume: "You used both LangGraph and CrewAI. The contrast is the interview gold: LangGraph is low-level, explicit graph control (precise, deterministic); CrewAI is a high-level role-based team abstraction (fast to build). Know when each fits.",
+      resume: "I used both LangGraph and CrewAI. The contrast is the interview gold: LangGraph is low-level, explicit graph control (precise, deterministic); CrewAI is a high-level role-based team abstraction (fast to build). Know when each fits.",
       qa: [
         ["LangGraph vs LangChain?", "LangChain chains are largely linear; LangGraph models stateful, cyclic, branching workflows as an explicit graph. Use LangGraph when you need loops, conditional routing, retries or human-in-the-loop."],
         ["What does the graph structure give you?", "Explicit, inspectable control flow — nodes as steps, conditional edges as decisions, and cycles for iteration — which makes agent behaviour more deterministic and debuggable than a free-form agent."],
@@ -1469,7 +1469,7 @@
     },
 
     "agentic-sdlc": {
-      intro: "Agentic SDLC is the theme of your flagship project: automating the software development lifecycle with a team of AI agents. Agents map to lifecycle roles — plan, code, review, test, deploy — and use RAG over your project's knowledge plus MCP tools to stay consistent and act safely.",
+      intro: "Agentic SDLC is the theme of my flagship project: automating the software development lifecycle with a team of AI agents. Agents map to lifecycle roles — plan, code, review, test, deploy — and use RAG over my project's knowledge plus MCP tools to stay consistent and act safely.",
       deep: [
         ["Agents as SDLC roles", "Orchestrator plans and routes; CodeGen writes code; Review critiques; QA tests; Deploy ships. Each is a specialised agent with its own tools and context."],
         ["RAG for consistency", "Retrieval over Jira, Confluence and GitHub injects prior decisions, standards and context into each step so new work stays aligned with existing architecture (via Pinecone)."],
@@ -1477,7 +1477,7 @@
         ["Human-in-the-loop", "Checkpoints where a person approves before merges or deploys keep the automation safe."],
         ["Orchestration", "A supervisor coordinates the agents, handling handoffs and shared state across the pipeline."]
       ],
-      resume: "This is your headline project — expect the deepest questioning here. Be ready to draw the architecture (agents, orchestrator, RAG store, MCP tools, human checkpoints) and to explain how architectural consistency is maintained across iterations.",
+      resume: "This is my headline project — expect the deepest questioning here. Be ready to draw the architecture (agents, orchestrator, RAG store, MCP tools, human checkpoints) and to explain how architectural consistency is maintained across iterations.",
       qa: [
         ["How do the agents keep architectural consistency across iterations?", "RAG retrieval from project docs (Jira/Confluence/GitHub in Pinecone) injects prior architectural decisions and standards into each agent's context, so every iteration is generated in line with what already exists."],
         ["How do agents map to the SDLC?", "Each phase gets a specialised agent — plan, code, review, test, deploy — coordinated by an orchestrator, so the software lifecycle runs as a pipeline of focused agents."],
@@ -1496,7 +1496,7 @@
         ["Regularization", "Techniques (L1/L2, dropout, early stopping) that penalise complexity to reduce overfitting and improve generalisation."],
         ["Metrics", "Accuracy, precision, recall, F1 and the confusion matrix. Accuracy misleads on imbalanced data, so precision/recall/F1 matter."]
       ],
-      resume: "Your sentiment and CV projects rest on these. The most common trap is precision vs recall — memorise both definitions and when each matters (e.g. recall for safety-critical detection).",
+      resume: "My sentiment and CV projects rest on these. The most common trap is precision vs recall — memorise both definitions and when each matters (e.g. recall for safety-critical detection).",
       qa: [
         ["Precision vs recall?", "Precision = of the items you predicted positive, how many were actually positive. Recall = of all actual positives, how many you caught. F1 is their harmonic mean, balancing the two."],
         ["What is overfitting and how do you fix it?", "The model memorises training data and generalises poorly (high variance). Fixes: more/augmented data, regularization (L1/L2, dropout), simpler models, early stopping, and cross-validation."],
@@ -1507,7 +1507,7 @@
     },
 
     "ensemble": {
-      intro: "Ensemble methods combine several models so the group outperforms any single one — different models make different mistakes, and aggregating them cancels out individual weaknesses. Your sentiment app used an SVM + Naive Bayes + Random Forest ensemble to reach 90%+ accuracy.",
+      intro: "Ensemble methods combine several models so the group outperforms any single one — different models make different mistakes, and aggregating them cancels out individual weaknesses. My sentiment app used an SVM + Naive Bayes + Random Forest ensemble to reach 90%+ accuracy.",
       deep: [
         ["SVM (Support Vector Machine)", "Finds the maximum-margin boundary separating classes; kernels (RBF, polynomial) handle non-linear separation. Strong on high-dimensional text features."],
         ["Naive Bayes", "A probabilistic classifier applying Bayes' theorem with a (naive) feature-independence assumption. Fast, simple, and surprisingly strong for text/spam classification."],
@@ -1517,7 +1517,7 @@
       ],
       resume: "This is a concrete, defensible project. Be ready to explain each of the three algorithms in a sentence and, crucially, why combining them improved accuracy — diverse models capturing different patterns.",
       qa: [
-        ["Why ensemble multiple models for sentiment instead of one?", "Different models capture different patterns and make different errors; combining them (e.g. by voting) cancels out individual weaknesses and raises overall accuracy — your 90%+ result."],
+        ["Why ensemble multiple models for sentiment instead of one?", "Different models capture different patterns and make different errors; combining them (e.g. by voting) cancels out individual weaknesses and raises overall accuracy — my 90%+ result."],
         ["Bagging vs boosting?", "Bagging trains models in parallel on bootstrapped data samples and averages them to reduce variance (Random Forest). Boosting trains models sequentially, each correcting the previous one's errors to reduce bias (XGBoost/AdaBoost)."],
         ["Why is Naive Bayes good for text?", "Text has many features (words); Naive Bayes' independence assumption makes it fast and low-variance, and it works well even when the assumption is imperfect — a strong, cheap baseline."],
         ["How does an SVM classify?", "It finds the hyperplane with the maximum margin between classes; with kernels it maps data to a higher-dimensional space to separate non-linearly separable classes."]
@@ -1526,7 +1526,7 @@
     },
 
     "cnns": {
-      intro: "Convolutional Neural Networks are deep networks built for images — they learn spatial features (edges → shapes → objects) using shared convolutional filters. Your plant-disease detector is a CNN, and CNNs are the backbone behind the object detectors in your hazard-detection project.",
+      intro: "Convolutional Neural Networks are deep networks built for images — they learn spatial features (edges → shapes → objects) using shared convolutional filters. My plant-disease detector is a CNN, and CNNs are the backbone behind the object detectors in my hazard-detection project.",
       deep: [
         ["Convolution & filters", "Small learnable kernels slide over the image detecting local patterns — early layers find edges, deeper layers combine them into shapes and objects. Weight sharing means far fewer parameters than a dense net."],
         ["Pooling", "Downsampling (e.g. max pooling) shrinks feature maps, adds translation tolerance, and cuts computation."],
@@ -1545,7 +1545,7 @@
     },
 
     "text-preprocessing": {
-      intro: "Text preprocessing turns raw text into numeric features a model can learn from — the front end of your sentiment pipeline. Garbage in, garbage out: the quality of these steps often matters more than the classifier choice.",
+      intro: "Text preprocessing turns raw text into numeric features a model can learn from — the front end of my sentiment pipeline. Garbage in, garbage out: the quality of these steps often matters more than the classifier choice.",
       deep: [
         ["Tokenization", "Split text into tokens (words/subwords). Everything downstream operates on tokens."],
         ["Cleaning", "Lowercasing, removing punctuation/stopwords, and stemming (chop to root) or lemmatization (map to dictionary form) to reduce vocabulary size and noise."],
@@ -1554,7 +1554,7 @@
         ["Word embeddings", "Word2Vec/GloVe upgrade sparse counts to dense semantic vectors; modern pipelines use contextual embeddings from transformers."],
         ["Class imbalance", "If one sentiment dominates, resample or reweight so the model doesn't just predict the majority class."]
       ],
-      resume: "Directly underpins your sentiment app. The reliable question is 'what is TF-IDF?' — be able to define it precisely and say why it beats raw counts.",
+      resume: "Directly underpins my sentiment app. The reliable question is 'what is TF-IDF?' — be able to define it precisely and say why it beats raw counts.",
       qa: [
         ["What is TF-IDF?", "Term Frequency × Inverse Document Frequency: it weights a word by how often it appears in a document but down-weights words common across all documents, highlighting terms that are distinctive to a document."],
         ["Stemming vs lemmatization?", "Stemming crudely chops words to a root ('running'→'run', but 'better'→'better'); lemmatization maps to the proper dictionary form using vocabulary/POS ('better'→'good'). Lemmatization is more accurate but slower."],
@@ -1565,7 +1565,7 @@
     },
 
     "tensorflow-keras": {
-      intro: "TensorFlow is Google's deep-learning framework; Keras is its high-level API for building and training networks with minimal code. You used them for the CV/DL work, so know the training workflow and how TF compares to PyTorch.",
+      intro: "TensorFlow is Google's deep-learning framework; Keras is its high-level API for building and training networks with minimal code. I used them for the CV/DL work, so know the training workflow and how TF compares to PyTorch.",
       deep: [
         ["Keras API", "Build models with the Sequential or functional API by stacking layers, then compile with a loss+optimizer and train with model.fit(). Very fast to prototype."],
         ["Tensors & graphs", "Computation runs on tensors (n-dimensional arrays); TF builds a computational graph and uses automatic differentiation (autodiff) to compute gradients for training."],
@@ -1573,7 +1573,7 @@
         ["Callbacks", "Hooks during training: early stopping (halt when validation stops improving), checkpoints (save best weights), learning-rate schedules."],
         ["Deployment ecosystem", "TF Serving, TF Lite (mobile/edge) and TF.js make TensorFlow strong for production and on-device inference."]
       ],
-      resume: "You've touched both TF and PyTorch, so the classic 'TensorFlow vs PyTorch?' is fair game. Know the framing: PyTorch = research/dynamic/Pythonic, TF = production/deployment ecosystem.",
+      resume: "I've touched both TF and PyTorch, so the classic 'TensorFlow vs PyTorch?' is fair game. Know the framing: PyTorch = research/dynamic/Pythonic, TF = production/deployment ecosystem.",
       qa: [
         ["TensorFlow vs PyTorch?", "PyTorch uses dynamic graphs, is more Pythonic, and dominates research. TensorFlow has a stronger production/deployment ecosystem (TF Serving, TF Lite, TF.js). Both train the same kinds of networks; the choice is workflow and deployment."],
         ["What does model.fit() do in Keras?", "Runs the training loop: forward pass, loss computation, backpropagation via autodiff, and optimizer weight updates — repeated over batches and epochs, with optional validation and callbacks."],
@@ -1584,7 +1584,7 @@
     },
 
     "pytorch-sklearn": {
-      intro: "PyTorch and Scikit-Learn cover the two halves of ML: PyTorch for deep learning (neural nets on images, text, big data), Scikit-Learn for classical ML (SVM, Naive Bayes, Random Forest, tabular data). Your ensemble sentiment model was Scikit-Learn; deep-learning work uses PyTorch/TF.",
+      intro: "PyTorch and Scikit-Learn cover the two halves of ML: PyTorch for deep learning (neural nets on images, text, big data), Scikit-Learn for classical ML (SVM, Naive Bayes, Random Forest, tabular data). My ensemble sentiment model was Scikit-Learn; deep-learning work uses PyTorch/TF.",
       deep: [
         ["PyTorch essentials", "Tensors + autograd (automatic gradients), models as nn.Module subclasses, and an explicit training loop you write yourself — dynamic graphs make it flexible and debuggable."],
         ["Scikit-Learn essentials", "A uniform fit()/predict() API across dozens of classical algorithms, plus preprocessing, pipelines, GridSearchCV and metrics — everything for non-deep ML."],
@@ -1592,7 +1592,7 @@
         ["When to use which", "Scikit-Learn for tabular/small/classical problems; PyTorch (or TF) for deep nets on images, text and large datasets."],
         ["Interop", "NumPy arrays and Pandas DataFrames feed both; you often preprocess with Scikit and model with PyTorch."]
       ],
-      resume: "Your ensemble (SVM/NB/RF) is Scikit-Learn; anything deep is PyTorch/TF. Expect 'when do you reach for Scikit-Learn vs a deep-learning framework?' — answer by data type and size.",
+      resume: "My ensemble (SVM/NB/RF) is Scikit-Learn; anything deep is PyTorch/TF. Expect 'when do you reach for Scikit-Learn vs a deep-learning framework?' — answer by data type and size.",
       qa: [
         ["When Scikit-Learn vs PyTorch/TensorFlow?", "Scikit-Learn for classical algorithms on tabular/small data (SVM, Naive Bayes, Random Forest); PyTorch/TF for deep neural networks on images, text and large datasets. Match the tool to data type and scale."],
         ["What is autograd in PyTorch?", "Automatic differentiation: PyTorch records operations on tensors and computes gradients automatically during backpropagation, so you don't derive them by hand."],
@@ -1603,7 +1603,7 @@
     },
 
     "hyperparameter-tuning": {
-      intro: "Hyperparameter tuning systematically searches the settings you choose before training (learning rate, tree depth, SVM's C and gamma) to squeeze out the best performance. Your resume credits it for reaching 90%+ accuracy, so be ready to explain how you did it correctly.",
+      intro: "Hyperparameter tuning systematically searches the settings you choose before training (learning rate, tree depth, SVM's C and gamma) to squeeze out the best performance. My resume credits it for reaching 90%+ accuracy, so be ready to explain how you did it correctly.",
       deep: [
         ["Parameter vs hyperparameter", "Parameters are learned during training (weights). Hyperparameters are set by you beforehand (learning rate, number of trees, kernel) and are not learned from data directly."],
         ["Search strategies", "Grid search (exhaustive over a grid), random search (sample combinations — often more efficient), Bayesian optimisation (model the objective to pick promising settings)."],
@@ -1611,7 +1611,7 @@
         ["Common knobs", "Learning rate and batch size (deep nets), C and gamma (SVM), n_estimators and max_depth (Random Forest)."],
         ["GridSearchCV", "Scikit-Learn's tool that runs grid search with cross-validation, automating the whole tune-and-evaluate loop."]
       ],
-      resume: "Since you attribute your accuracy to tuning, the sharp question is 'parameter vs hyperparameter?' and 'why never tune on the test set?'. Both check whether you understand generalisation.",
+      resume: "Since I attribute my accuracy to tuning, the sharp question is 'parameter vs hyperparameter?' and 'why never tune on the test set?'. Both check whether you understand generalisation.",
       qa: [
         ["Parameter vs hyperparameter?", "Parameters are learned from data during training (e.g. weights). Hyperparameters are configured by you before training (learning rate, tree depth, kernel) and control how learning happens."],
         ["Why must you tune on validation and not test data?", "The test set must give an unbiased estimate of real-world performance. Tuning on it leaks information and inflates your reported accuracy — you'd be fitting to the test set."],
@@ -1630,7 +1630,7 @@
         ["Metadata filtering", "Combine vector similarity with structured filters (WHERE-style) so 'similar AND from this project AND after this date' is one query."],
         ["Operations", "Upsert (insert/update), collections/namespaces (logical partitions), and top-k retrieval are the core API across all vector DBs."]
       ],
-      resume: "You've used Qdrant, Pinecone and pgvector — so 'why not just use a normal database?' is the framing question. Answer: relational DBs can't do efficient high-dimensional similarity search; vector DBs use ANN indexes built for exactly that.",
+      resume: "I've used Qdrant, Pinecone and pgvector — so 'why not just use a normal database?' is the framing question. Answer: relational DBs can't do efficient high-dimensional similarity search; vector DBs use ANN indexes built for exactly that.",
       qa: [
         ["Why not just use a normal database for this?", "Regular databases can't efficiently do similarity search over high-dimensional vectors — they'd scan everything. Vector DBs use ANN indexes (HNSW, IVF) purpose-built for fast nearest-neighbour search."],
         ["What is HNSW?", "Hierarchical Navigable Small World — a graph-based ANN index that navigates from coarse to fine layers to find near-neighbours in logarithmic-ish time, the common default in modern vector DBs."],
@@ -1641,7 +1641,7 @@
     },
 
     "qdrant": {
-      intro: "Qdrant is an open-source vector database written in Rust, used as the store in your Document-QA project. It's self-hostable with strong metadata filtering — a good fit when data privacy and control matter.",
+      intro: "Qdrant is an open-source vector database written in Rust, used as the store in my Document-QA project. It's self-hostable with strong metadata filtering — a good fit when data privacy and control matter.",
       deep: [
         ["Collections & points", "Data lives in collections of points (id + vector + payload). You upsert points and query by vector similarity."],
         ["HNSW index", "Uses the HNSW graph index for fast approximate search, tunable for the speed/accuracy trade-off."],
@@ -1649,7 +1649,7 @@
         ["Deployment", "Self-host (Docker) for full control and data privacy, or use Qdrant Cloud. Exposes REST and gRPC APIs."],
         ["Why open-source matters", "Your data stays on your infrastructure — important for on-prem or privacy-sensitive RAG."]
       ],
-      resume: "Qdrant is your Document-QA store. The comparison question — Qdrant vs Pinecone — is almost guaranteed. Frame it as open-source/self-host/control vs managed/zero-ops/paid.",
+      resume: "Qdrant is my Document-QA store. The comparison question — Qdrant vs Pinecone — is almost guaranteed. Frame it as open-source/self-host/control vs managed/zero-ops/paid.",
       qa: [
         ["Why did you choose Qdrant?", "It's open-source and self-hostable, so data stays on our infrastructure (privacy/control), with fast HNSW search and strong payload filtering — a good fit for on-prem document QA."],
         ["Qdrant vs Pinecone?", "Qdrant is open-source and self-hosted (control and privacy, but you run the infra); Pinecone is fully managed (zero-ops, but paid and hosted, so data leaves your infra). Choose by ops burden vs control."],
@@ -1660,15 +1660,15 @@
     },
 
     "pinecone": {
-      intro: "Pinecone is a fully-managed, serverless cloud vector database — you get scalable similarity search with no infrastructure to run. It's the store in your Agentic-SDLC project, chosen for zero-ops convenience.",
+      intro: "Pinecone is a fully-managed, serverless cloud vector database — you get scalable similarity search with no infrastructure to run. It's the store in my Agentic-SDLC project, chosen for zero-ops convenience.",
       deep: [
         ["Managed & serverless", "Pinecone handles scaling, sharding and availability; you just upsert and query. No servers to provision or tune."],
         ["Namespaces", "Partition an index into namespaces (e.g. per project or tenant) to isolate and scope searches."],
         ["Metadata filtering", "Attach metadata to vectors and filter on it during search, like other vector DBs."],
         ["Trade-off", "Convenience and scale, but it's paid and your vectors live on Pinecone's infrastructure — a data-residency consideration."],
-        ["Fit for agentic RAG", "In your SDLC project it stores embeddings of Jira/Confluence/GitHub content so agents retrieve project context at query time."]
+        ["Fit for agentic RAG", "In my SDLC project it stores embeddings of Jira/Confluence/GitHub content so agents retrieve project context at query time."]
       ],
-      resume: "Pinecone backs the RAG in your agentic platform. Be ready to justify managed-vs-self-hosted: you picked Pinecone for zero-ops scaling; you'd pick Qdrant when privacy/control or cost dominate.",
+      resume: "Pinecone backs the RAG in my agentic platform. Be ready to justify managed-vs-self-hosted: you picked Pinecone for zero-ops scaling; you'd pick Qdrant when privacy/control or cost dominate.",
       qa: [
         ["Why Pinecone for the agentic SDLC project?", "It's fully managed and serverless — no infra to run and it scales automatically — so we could focus on the agents and RAG logic rather than operating a vector store."],
         ["Qdrant vs Pinecone?", "Pinecone is managed/zero-ops but paid and hosted (data leaves your infra); Qdrant is open-source/self-hosted for control and privacy but you run it. Pick by whether ops convenience or control matters more."],
@@ -1687,7 +1687,7 @@
         ["When it fits", "Moderate scale, when you already run Postgres and value a simpler stack and transactional consistency over specialised performance."],
         ["When it doesn't", "Very large-scale or extremely high-throughput vector workloads may outgrow it, where a dedicated vector DB shines."]
       ],
-      resume: "pgvector rounds out your vector-store range (alongside Qdrant and Pinecone). The key insight to convey: it's the right call when you want vectors and relational data in one transactional system without adding infrastructure.",
+      resume: "pgvector rounds out my vector-store range (alongside Qdrant and Pinecone). The key insight to convey: it's the right call when you want vectors and relational data in one transactional system without adding infrastructure.",
       qa: [
         ["When would you use pgvector over a dedicated vector DB?", "When scale is moderate and you already run Postgres — you keep vectors alongside relational data in one transactional system, simplifying the stack and avoiding a separate service."],
         ["What are the <code>&lt;-&gt;</code> and <code>&lt;=&gt;</code> operators?", "Distance operators pgvector adds: <code>&lt;-&gt;</code> is L2 (Euclidean) distance and <code>&lt;=&gt;</code> is cosine distance, so you can ORDER BY similarity directly in a SQL query."],
@@ -1706,7 +1706,7 @@
         ["Recursive character splitting", "A LangChain approach that tries to split on larger separators (paragraphs) first and falls back to smaller ones, keeping chunks semantically whole."],
         ["Metadata", "Attach source, page, section to each chunk so retrieval can filter and answers can cite provenance."]
       ],
-      resume: "Both your RAG projects depend on chunking. The question 'why does chunking matter?' is really 'do you understand where RAG quality comes from?' — answer that retrieval, and therefore chunking, is the bottleneck.",
+      resume: "Both my RAG projects depend on chunking. The question 'why does chunking matter?' is really 'do you understand where RAG quality comes from?' — answer that retrieval, and therefore chunking, is the bottleneck.",
       qa: [
         ["Why does chunking matter so much in RAG?", "Retrieval quality depends on it: well-sized, coherent chunks keep complete context together so the right passage is retrieved and the LLM can answer accurately. Bad chunks split ideas and wreck retrieval."],
         ["How do you choose chunk size and overlap?", "Balance context vs noise — large enough to hold a complete idea, small enough to stay focused — with some overlap so ideas aren't cut across boundaries. Tune empirically against a retrieval eval set."],
@@ -1717,7 +1717,7 @@
     },
 
     "object-detection": {
-      intro: "Object detection both locates and classifies objects in an image, drawing bounding boxes with class labels and confidence scores. It's the core of your hazard-detection system — not just 'is there a hazard?' but 'what and where?'.",
+      intro: "Object detection both locates and classifies objects in an image, drawing bounding boxes with class labels and confidence scores. It's the core of my hazard-detection system — not just 'is there a hazard?' but 'what and where?'.",
       deep: [
         ["Detection vs classification vs segmentation", "Classification labels the whole image; detection adds bounding boxes ('what and where'); segmentation labels every pixel (precise shape)."],
         ["Outputs", "Each detection is a bounding box + a class + a confidence score. Post-processing filters and cleans these."],
@@ -1725,7 +1725,7 @@
         ["NMS (Non-Max Suppression)", "Removes duplicate overlapping boxes for the same object, keeping the highest-confidence one."],
         ["mAP (mean Average Precision)", "The standard detection metric, averaging precision across recall levels and classes (often at an IoU threshold)."]
       ],
-      resume: "This underpins your hazard system (with YOLO and SSD). Know IoU, NMS and mAP cold — they're the vocabulary interviewers use to check you actually built a detector rather than just ran one.",
+      resume: "This underpins my hazard system (with YOLO and SSD). Know IoU, NMS and mAP cold — they're the vocabulary interviewers use to check you actually built a detector rather than just ran one.",
       qa: [
         ["What is IoU?", "Intersection over Union — the overlap area between the predicted and ground-truth boxes divided by their combined area. It measures localisation accuracy; a threshold (e.g. 0.5) decides whether a detection counts as a hit."],
         ["Detection vs segmentation?", "Detection draws bounding boxes around objects (what and roughly where); segmentation classifies every pixel, giving precise object shapes. Segmentation is more detailed and more expensive."],
@@ -1736,26 +1736,26 @@
     },
 
     "yolov5": {
-      intro: "YOLO ('You Only Look Once') is a fast single-stage object detector; YOLOv5 is the version powering your real-time hazard model. Its whole design goal is speed — one pass over the image gives boxes and classes at once, enabling real-time video.",
+      intro: "YOLO ('You Only Look Once') is a fast single-stage object detector; YOLOv5 is the version powering my real-time hazard model. Its whole design goal is speed — one pass over the image gives boxes and classes at once, enabling real-time video.",
       deep: [
         ["Single-stage", "One forward pass predicts all boxes and classes simultaneously — no separate region-proposal step — which is why it's fast enough for real-time (high FPS)."],
         ["Grid + anchors", "The image is divided into a grid; each cell predicts bounding boxes (via anchor boxes) with classes and confidences."],
         ["Custom training", "Train on your own labelled dataset, then export the weights for inference on video streams."],
-        ["Model sizes", "n/s/m/l/x variants trade speed for accuracy — pick the smallest that meets your accuracy bar to maximise FPS."],
+        ["Model sizes", "n/s/m/l/x variants trade speed for accuracy — pick the smallest that meets my accuracy bar to maximise FPS."],
         ["vs two-stage", "Two-stage detectors (Faster R-CNN) propose regions then classify — more accurate but slower. YOLO sacrifices a little accuracy for large speed gains."]
       ],
       resume: "The 'why YOLO for real-time?' question is the guaranteed one. Answer: single forward pass over the whole image → high FPS, unlike two-stage detectors that are accurate but too slow for live video.",
       qa: [
         ["Why YOLO for real-time detection?", "It's single-stage — one forward pass over the whole image predicts all boxes and classes at once — giving high FPS. Two-stage detectors like Faster R-CNN are more accurate but too slow for live video."],
         ["Single-stage vs two-stage detectors?", "Single-stage (YOLO, SSD) predict boxes and classes in one pass — fast, real-time. Two-stage (R-CNN family) first propose regions then classify them — more accurate but slower."],
-        ["How do YOLO's model sizes differ?", "n/s/m/l/x scale up in parameters: smaller = faster but less accurate, larger = more accurate but slower. You pick the smallest that meets your accuracy requirement to keep FPS high."],
+        ["How do YOLO's model sizes differ?", "n/s/m/l/x scale up in parameters: smaller = faster but less accurate, larger = more accurate but slower. You pick the smallest that meets my accuracy requirement to keep FPS high."],
         ["How did you train YOLOv5 for hazards?", "On a custom labelled dataset of hazard classes, then exported the trained weights and ran inference frame-by-frame on the live video stream, tuning confidence thresholds to cut false positives."]
       ],
       related: ["object-detection", "ssd", "opencv", "real-time-video", "cnns"]
     },
 
     "ssd": {
-      intro: "SSD (Single Shot Detector) is another single-stage, real-time object detector you paired with YOLO in the hazard system. Using two detectors and combining their outputs reduces false positives.",
+      intro: "SSD (Single Shot Detector) is another single-stage, real-time object detector I paired with YOLO in the hazard system. Using two detectors and combining their outputs reduces false positives.",
       deep: [
         ["Single-stage, real-time", "Like YOLO, SSD predicts boxes and classes in one pass, so it's fast enough for live video."],
         ["Multi-scale feature maps", "SSD makes predictions from feature maps at several resolutions, so it detects both small and large objects well."],
@@ -1763,7 +1763,7 @@
         ["Profile vs YOLO", "Similar speed/accuracy ballpark but different design; the multi-scale approach handles varied object sizes differently."],
         ["Ensembling detectors", "Combining SSD and YOLO detections (agreement/voting) filters out spurious single-model detections — fewer false alarms in a safety system."]
       ],
-      resume: "SSD is the second detector in your ensemble. Expect 'YOLO vs SSD' and 'why use both?' — the answer is complementary strengths and false-positive reduction, which matters for a safety/alert use case.",
+      resume: "SSD is the second detector in my ensemble. Expect 'YOLO vs SSD' and 'why use both?' — the answer is complementary strengths and false-positive reduction, which matters for a safety/alert use case.",
       qa: [
         ["YOLO vs SSD?", "Both are single-stage, real-time detectors. SSD predicts from multi-scale feature maps (good across object sizes); YOLO is often faster. They have similar speed/accuracy ballparks with different designs."],
         ["Why use both YOLO and SSD together?", "Ensembling two detectors and combining their outputs reduces false positives — a detection both models agree on is more trustworthy, which matters for a hazard-alert system."],
@@ -1774,7 +1774,7 @@
     },
 
     "opencv": {
-      intro: "OpenCV is the classic computer-vision library — it handles frame capture, preprocessing, drawing and real-time video. In your hazard pipeline it's the glue that connects the camera to the detection model and renders the results back on screen.",
+      intro: "OpenCV is the classic computer-vision library — it handles frame capture, preprocessing, drawing and real-time video. In my hazard pipeline it's the glue that connects the camera to the detection model and renders the results back on screen.",
       deep: [
         ["Video capture", "VideoCapture reads frames from a camera or file in a frame-by-frame loop — the entry point for real-time processing."],
         ["Preprocessing", "Resize, colour-space conversion (BGR↔RGB), thresholding, blurring and contour detection prepare frames for the model or classical CV."],
@@ -1782,7 +1782,7 @@
         ["Pipeline glue", "OpenCV bridges camera → preprocessing → model inference → annotated output, orchestrating the real-time loop."],
         ["Classical CV", "Beyond deep learning, it offers edge detection, feature matching and morphological operations for traditional vision tasks."]
       ],
-      resume: "OpenCV is the plumbing of your CV projects. Be ready to describe its role in the pipeline: grabbing frames, preprocessing them for YOLO/SSD, and drawing detections/alerts back onto the video.",
+      resume: "OpenCV is the plumbing of my CV projects. Be ready to describe its role in the pipeline: grabbing frames, preprocessing them for YOLO/SSD, and drawing detections/alerts back onto the video.",
       qa: [
         ["What role does OpenCV play in your pipeline?", "It captures frames from the video stream, preprocesses them (resize, colour convert) for the model, and draws the resulting detections and alerts back onto the frames — the glue between camera, model and display."],
         ["How do you read a live video stream in OpenCV?", "With VideoCapture, looping to grab frames one at a time, processing each frame (inference + annotation), and displaying or writing the output."],
@@ -1793,7 +1793,7 @@
     },
 
     "real-time-video": {
-      intro: "Real-time video processing means running inference on a live stream fast enough to act on it instantly — the core requirement of your safety/alert hazard system. The engineering is about hitting an FPS/latency budget without sacrificing too much accuracy.",
+      intro: "Real-time video processing means running inference on a live stream fast enough to act on it instantly — the core requirement of my safety/alert hazard system. The engineering is about hitting an FPS/latency budget without sacrificing too much accuracy.",
       deep: [
         ["FPS & latency budget", "You have a fixed time per frame; if inference is too slow you drop frames or skip processing some to keep up."],
         ["Frame skipping", "Process every Nth frame (or only when motion is detected) to save compute while staying responsive."],
@@ -1801,7 +1801,7 @@
         ["False-positive reduction", "Confidence thresholding, domain-specific training data, and temporal consistency (require a detection across several consecutive frames) cut false alarms."],
         ["Downstream actions", "A detection triggers real actions — visual overlays plus audio alerts — so reliability matters more than in an offline task."]
       ],
-      resume: "Your hazard system is safety-critical, so false positives are the key theme. Have a concrete answer for 'how did you cut false positives?' — thresholding, better data, and temporal consistency across frames.",
+      resume: "My hazard system is safety-critical, so false positives are the key theme. Have a concrete answer for 'how did you cut false positives?' — thresholding, better data, and temporal consistency across frames.",
       qa: [
         ["How did you reduce false positives in real-time detection?", "Confidence thresholding, training on domain-specific data, ensembling YOLO+SSD, and temporal consistency — requiring an object to be detected across several consecutive frames before firing an alert."],
         ["How do you keep up with a real-time frame rate?", "Stay within the per-frame latency budget by using a smaller/optimised model, GPU acceleration, and frame skipping (processing every Nth frame) when needed."],
@@ -1812,7 +1812,7 @@
     },
 
     "mern": {
-      intro: "The MERN stack — MongoDB, Express, React, Node — is an end-to-end JavaScript stack for building web apps, and it's behind your SAAS platforms. One language across the whole stack is its defining appeal.",
+      intro: "The MERN stack — MongoDB, Express, React, Node — is an end-to-end JavaScript stack for building web apps, and it's behind my SAAS platforms. One language across the whole stack is its defining appeal.",
       deep: [
         ["The four layers", "MongoDB (document database), Express (backend web framework), React (frontend UI library), Node.js (the JS runtime the backend runs on)."],
         ["Data flow", "React calls an Express API on Node, which queries MongoDB and returns JSON that React renders — REST/JSON is the contract between front and back."],
@@ -1820,7 +1820,7 @@
         ["Cross-cutting concerns", "Authentication (JWT), CORS, environment config and error handling apply across the stack."],
         ["Alternatives", "Swap React for Angular (MEAN) or add Next.js for SSR; swap MongoDB for Postgres when you need relational/transactional data."]
       ],
-      resume: "MERN is your full-stack foundation. The classic 'walk me through a MERN request' is a warm-up — narrate it end to end confidently, naming each layer's job.",
+      resume: "MERN is my full-stack foundation. The classic 'walk me through a MERN request' is a warm-up — narrate it end to end confidently, naming each layer's job.",
       qa: [
         ["Walk me through a MERN request.", "The React frontend calls an Express route running on Node; Express handles the request, queries MongoDB, and returns JSON; React receives it and updates the UI. One JavaScript language runs across the entire flow."],
         ["What does each letter in MERN do?", "MongoDB stores data as JSON-like documents; Express is the backend web framework; React builds the component-based UI; Node.js is the JavaScript runtime the backend executes on."],
@@ -1831,7 +1831,7 @@
     },
 
     "react": {
-      intro: "React is a component-based JavaScript library for building user interfaces, using a virtual DOM to update efficiently. It's the frontend of your MERN work, and hooks are the concept interviewers probe most.",
+      intro: "React is a component-based JavaScript library for building user interfaces, using a virtual DOM to update efficiently. It's the frontend of my MERN work, and hooks are the concept interviewers probe most.",
       deep: [
         ["Components & JSX", "UIs are built from reusable components; JSX is the HTML-like syntax that describes what each renders."],
         ["Props vs state", "Props are inputs passed in from a parent (read-only); state is data a component owns and can change, triggering re-render."],
@@ -1841,7 +1841,7 @@
       ],
       code: { lang: "javascript", text:
 "function Counter() {\n  const [count, setCount] = useState(0);\n\n  useEffect(() => {\n    document.title = 'Count: ' + count;   // side effect after render\n  }, [count]);                            // re-runs only when count changes\n\n  return React.createElement('button', { onClick: () => setCount(count + 1) }, count);\n}" },
-      resume: "React is central to every frontend on your CV. 'What does useEffect do?' and 'props vs state' are near-certain — answer precisely, especially the dependency array's role.",
+      resume: "React is central to every frontend on my CV. 'What does useEffect do?' and 'props vs state' are near-certain — answer precisely, especially the dependency array's role.",
       qa: [
         ["What does useEffect do?", "It runs side effects (data fetching, subscriptions, DOM updates) after render. The dependency array controls when it re-runs — empty = once on mount, [x] = whenever x changes, omitted = after every render."],
         ["Props vs state?", "Props are read-only inputs passed from a parent component; state is data a component owns and can update, and changing state triggers a re-render. Props flow down, state is local."],
@@ -1852,7 +1852,7 @@
     },
 
     "node-express": {
-      intro: "Node.js is a JavaScript runtime built on V8 with a non-blocking event loop; Express is a minimal web framework on top of it. Together they're the backend of your MERN apps — great for I/O-heavy APIs and real-time work.",
+      intro: "Node.js is a JavaScript runtime built on V8 with a non-blocking event loop; Express is a minimal web framework on top of it. Together they're the backend of my MERN apps — great for I/O-heavy APIs and real-time work.",
       deep: [
         ["Event loop & non-blocking I/O", "Node handles many concurrent connections on a single thread by not blocking on I/O — it registers callbacks and continues, ideal for APIs and streaming."],
         ["Express basics", "Routes map URLs+verbs to handlers; middleware functions run in sequence to handle auth, parsing, logging and errors; req/res carry the request and response."],
@@ -1890,7 +1890,7 @@
     },
 
     "fastapi-flask": {
-      intro: "Flask and FastAPI are Python web frameworks you've used to serve models — Flask for your sentiment app, FastAPI for AI backends. FastAPI is the modern choice: async, type-validated and auto-documented.",
+      intro: "Flask and FastAPI are Python web frameworks I've used to serve models — Flask for my sentiment app, FastAPI for AI backends. FastAPI is the modern choice: async, type-validated and auto-documented.",
       deep: [
         ["Flask", "Minimal and synchronous (WSGI); quick to stand up a simple ML inference API. Great for small projects and prototypes."],
         ["FastAPI", "Async (ASGI), high-performance, with Pydantic-based request/response validation and automatic OpenAPI/Swagger docs generated from your type hints."],
@@ -1898,7 +1898,7 @@
         ["Async concurrency", "FastAPI's async support handles many concurrent requests efficiently — valuable when calling slow LLM APIs."],
         ["Serving models", "Both expose REST endpoints that load a model once and run inference per request; FastAPI's validation makes the contract explicit."]
       ],
-      resume: "You used both, so 'FastAPI vs Flask?' is a natural question. Frame FastAPI as async + type-validated + auto-documented (better for modern AI APIs) and Flask as simpler/synchronous.",
+      resume: "I used both, so 'FastAPI vs Flask?' is a natural question. Frame FastAPI as async + type-validated + auto-documented (better for modern AI APIs) and Flask as simpler/synchronous.",
       qa: [
         ["FastAPI vs Flask?", "FastAPI is async, validates requests/responses via Pydantic type hints, and auto-generates OpenAPI docs — better for modern, high-concurrency AI APIs. Flask is minimal and synchronous — simpler and fine for small ML services."],
         ["What does Pydantic give FastAPI?", "Automatic validation and serialisation from typed models — incoming JSON is validated against declared schemas (rejecting bad input with clear errors) and responses are serialised consistently."],
@@ -1909,7 +1909,7 @@
     },
 
     "sql-nosql": {
-      intro: "This is the relational-vs-document database decision that runs through your stack: MongoDB (NoSQL/document) versus MySQL/PostgreSQL (SQL/relational). Choosing correctly is about the shape and guarantees your data needs.",
+      intro: "This is the relational-vs-document database decision that runs through my stack: MongoDB (NoSQL/document) versus MySQL/PostgreSQL (SQL/relational). Choosing correctly is about the shape and guarantees your data needs.",
       deep: [
         ["MongoDB (NoSQL)", "Stores flexible JSON-like documents in collections with no fixed schema; scales horizontally; great when data shapes evolve or vary."],
         ["SQL databases", "Tables with fixed schemas, joins across related tables, and ACID transactions for strong consistency — ideal for structured, relational, transactional data."],
@@ -1928,7 +1928,7 @@
     },
 
     "react-native-flutter": {
-      intro: "React Native and Flutter are cross-platform mobile frameworks — write once, run on iOS and Android. They're the mobile side of your full-stack range, and the interview question is simply knowing how they differ.",
+      intro: "React Native and Flutter are cross-platform mobile frameworks — write once, run on iOS and Android. They're the mobile side of my full-stack range, and the interview question is simply knowing how they differ.",
       deep: [
         ["React Native", "Uses JavaScript/React and bridges to native UI components, so you reuse React knowledge and get near-native widgets."],
         ["Flutter", "Uses Dart and its own rendering engine (Skia), drawing every pixel itself for consistent UI across platforms and versions."],
@@ -1936,7 +1936,7 @@
         ["Performance", "Both achieve near-native performance; Flutter's own renderer gives pixel-consistent UI, RN leans on native components."],
         ["Single codebase", "One codebase targets both platforms, cutting development and maintenance versus separate native apps."]
       ],
-      resume: "Cross-platform mobile rounds out your stack. 'RN vs Flutter?' is the only likely question — know the language and rendering distinction.",
+      resume: "Cross-platform mobile rounds out my stack. 'RN vs Flutter?' is the only likely question — know the language and rendering distinction.",
       qa: [
         ["React Native vs Flutter?", "React Native uses JavaScript/React and bridges to native UI components; Flutter uses Dart and its own Skia rendering engine to draw the UI itself. Both give a single codebase for iOS and Android with near-native performance."],
         ["Why does Flutter's own renderer matter?", "Because Flutter draws every pixel with Skia, the UI looks identical across platforms and OS versions, rather than depending on each platform's native widgets like React Native does."],
@@ -1947,7 +1947,7 @@
     },
 
     "rest-apis": {
-      intro: "REST is the architectural style behind the APIs connecting every frontend and backend on your resume. It's stateless, resource-oriented, and built on standard HTTP verbs — the lingua franca of web services.",
+      intro: "REST is the architectural style behind the APIs connecting every frontend and backend on my resume. It's stateless, resource-oriented, and built on standard HTTP verbs — the lingua franca of web services.",
       deep: [
         ["HTTP verbs & status codes", "GET (read), POST (create), PUT/PATCH (update), DELETE (remove); status codes signal outcome (2xx success, 4xx client error, 5xx server error)."],
         ["Statelessness", "Each request carries everything needed to process it; the server keeps no client session state between requests, which aids scaling."],
@@ -1955,7 +1955,7 @@
         ["Auth & hardening", "JWT or API keys for auth, rate limiting to prevent abuse, and versioning (/v1/) so changes don't break clients."],
         ["Alternatives", "GraphQL (client specifies exactly what data it wants, one endpoint) and WebSockets (persistent bidirectional connection) fit cases REST handles awkwardly."]
       ],
-      resume: "REST is the contract across all your projects. 'What makes an API RESTful?' checks fundamentals — statelessness, resources, standard verbs/status codes, JSON.",
+      resume: "REST is the contract across all my projects. 'What makes an API RESTful?' checks fundamentals — statelessness, resources, standard verbs/status codes, JSON.",
       qa: [
         ["What makes an API RESTful?", "It's stateless (each request is self-contained), organised around resources with meaningful URLs, uses standard HTTP verbs and status codes, and exchanges representations (usually JSON). No server-side client session between requests."],
         ["REST vs GraphQL?", "REST exposes multiple endpoints returning fixed data shapes; GraphQL exposes one endpoint where the client specifies exactly the fields it needs, avoiding over- and under-fetching — at the cost of more server complexity."],
@@ -1966,7 +1966,7 @@
     },
 
     "python": {
-      intro: "Python is your primary language for AI/ML and backend work. Interviewers probe the idioms that separate people who write Python from people who write Java-in-Python — comprehensions, generators, decorators, the GIL.",
+      intro: "Python is my primary language for AI/ML and backend work. Interviewers probe the idioms that separate people who write Python from people who write Java-in-Python — comprehensions, generators, decorators, the GIL.",
       deep: [
         ["Data structures", "list (ordered, mutable), dict (key-value), set (unique), tuple (immutable). Comprehensions build them concisely: [x*x for x in nums]."],
         ["Generators", "Functions using yield that produce values lazily one at a time — memory-efficient for large or streaming data."],
@@ -1988,7 +1988,7 @@
     },
 
     "javascript": {
-      intro: "JavaScript is the language of your MERN work — running on both the frontend (React) and backend (Node). The interview classics are closures, the event loop, and async behaviour.",
+      intro: "JavaScript is the language of my MERN work — running on both the frontend (React) and backend (Node). The interview classics are closures, the event loop, and async behaviour.",
       deep: [
         ["Closures", "A function that remembers variables from its enclosing scope even after that scope has returned — the basis for private state, callbacks and React hooks."],
         ["Scope & hoisting", "var is function-scoped and hoisted; let/const are block-scoped. Hoisting moves declarations to the top of their scope, which trips people up."],
@@ -1999,7 +1999,7 @@
       ],
       code: { lang: "javascript", text:
 "function makeCounter() {\n  let count = 0;                 // private via closure\n  return function () {\n    count += 1;                  // remembers count after makeCounter returns\n    return count;\n  };\n}\nconst next = makeCounter();\nnext(); // 1\nnext(); // 2" },
-      resume: "JavaScript is core to your full-stack claim. 'What's a closure?' is nearly guaranteed — define it and connect it to private state and React hooks.",
+      resume: "JavaScript is core to my full-stack claim. 'What's a closure?' is nearly guaranteed — define it and connect it to private state and React hooks.",
       qa: [
         ["What is a closure?", "A function that retains access to variables from its outer scope even after that scope has finished executing. It's the basis for private state, callbacks, and how React hooks remember values between renders."],
         ["== vs ===?", "=== is strict equality — compares value and type without coercion. == coerces types before comparing, which produces surprising results (e.g. 0 == ''). Prefer === to avoid coercion bugs."],
@@ -2030,7 +2030,7 @@
     },
 
     "java-php-dart": {
-      intro: "These are secondary languages on your CV — you need the one-line identity of each plus the conceptual distinctions (like compiled vs interpreted) an interviewer might probe.",
+      intro: "These are secondary languages on my CV — you need the one-line identity of each plus the conceptual distinctions (like compiled vs interpreted) an interviewer might probe.",
       deep: [
         ["Java", "Statically typed, object-oriented, runs on the JVM (compile to bytecode, run anywhere). Strong for enterprise backends and Android."],
         ["PHP", "Server-side scripting language, historically dominant for web backends (WordPress, Laravel); dynamically typed and interpreted."],
@@ -2049,7 +2049,7 @@
     },
 
     "docker": {
-      intro: "Docker packages an application and all its dependencies into a portable image that runs identically anywhere — solving 'works on my machine'. It's foundational for deploying your ML and web services consistently.",
+      intro: "Docker packages an application and all its dependencies into a portable image that runs identically anywhere — solving 'works on my machine'. It's foundational for deploying my ML and web services consistently.",
       deep: [
         ["Image vs container", "An image is a read-only template (app + deps + config); a container is a running instance of an image. One image → many containers."],
         ["Dockerfile", "A recipe of layered instructions (base image, copy code, install deps, run command) that builds an image; layers are cached for fast rebuilds."],
@@ -2068,7 +2068,7 @@
     },
 
     "git": {
-      intro: "Git is the distributed version-control system behind your daily workflow, and GitHub is the collaboration layer on top. Beyond basic commits, interviewers check whether you understand branching, merging and conflict resolution.",
+      intro: "Git is the distributed version-control system behind my daily workflow, and GitHub is the collaboration layer on top. Beyond basic commits, interviewers check whether you understand branching, merging and conflict resolution.",
       deep: [
         ["Core operations", "commit (snapshot changes), branch (parallel line of work), merge (combine branches), pull request (propose + review changes)."],
         ["Merge vs rebase", "Merge joins branches with a merge commit, preserving history; rebase replays your commits onto another base for a linear history."],
@@ -2095,7 +2095,7 @@
         ["Config", "Environment variables, custom domains and a global CDN for fast static asset delivery come built in."],
         ["CI/CD", "Continuous Integration (auto build/test on push) plus Continuous Deployment (auto ship) — provided out of the box."]
       ],
-      resume: "These platforms likely host your React/Next frontends. 'What is CI/CD?' is the natural question — define both halves clearly.",
+      resume: "These platforms likely host my React/Next frontends. 'What is CI/CD?' is the natural question — define both halves clearly.",
       qa: [
         ["What is CI/CD?", "Continuous Integration automatically builds and tests code on every push to catch problems early; Continuous Deployment automatically ships passing changes to production. Vercel/Netlify provide both out of the box via Git integration."],
         ["What are preview deployments?", "A live, isolated deployment created for each pull request with its own URL, so reviewers and stakeholders can test the exact change in a running environment before it's merged."],
@@ -2106,15 +2106,15 @@
     },
 
     "azure": {
-      intro: "Azure is Microsoft's cloud platform, and your resume lists foundational familiarity. You need the core service categories and the service-model distinctions (IaaS/PaaS/SaaS), plus awareness of Azure OpenAI given your GenAI focus.",
+      intro: "Azure is Microsoft's cloud platform, and my resume lists foundational familiarity. You need the core service categories and the service-model distinctions (IaaS/PaaS/SaaS), plus awareness of Azure OpenAI given my GenAI focus.",
       deep: [
         ["Core categories", "Compute (VMs, App Service), storage (Blob), and networking (VNets) — the building blocks of any cloud workload."],
-        ["Azure OpenAI Service", "Hosted OpenAI models (GPT, embeddings) with enterprise controls — directly relevant to your GenAI work."],
+        ["Azure OpenAI Service", "Hosted OpenAI models (GPT, embeddings) with enterprise controls — directly relevant to my GenAI work."],
         ["IaaS / PaaS / SaaS", "Infrastructure as a Service = raw VMs you manage; Platform as a Service = managed runtime (App Service); Software as a Service = finished apps. Less control but less ops as you move up."],
         ["Managed services", "The cloud value proposition — offload scaling, patching and availability to the provider."],
         ["Deployment", "Host web apps, APIs and containers, often integrated with CI/CD pipelines."]
       ],
-      resume: "You list foundational Azure knowledge, so expect conceptual not deep questions. 'IaaS vs PaaS vs SaaS?' is the reliable one.",
+      resume: "I list foundational Azure knowledge, so expect conceptual not deep questions. 'IaaS vs PaaS vs SaaS?' is the reliable one.",
       qa: [
         ["IaaS vs PaaS vs SaaS?", "IaaS gives raw infrastructure like VMs you manage (most control, most ops); PaaS gives a managed platform/runtime like App Service (you deploy code, provider runs it); SaaS is a finished application you just use. Control decreases and convenience increases as you go up."],
         ["What is Azure OpenAI Service?", "Microsoft's hosted offering of OpenAI models (GPT, embeddings) on Azure with enterprise security, compliance and networking controls — relevant when you need OpenAI capabilities within Azure governance."],
@@ -2125,7 +2125,7 @@
     },
 
     "numpy-pandas": {
-      intro: "NumPy and Pandas are the core of Python's data-handling stack — NumPy for fast numerical arrays, Pandas for tabular data (DataFrames). They feed every ML model on your resume, and 'why NumPy over lists?' is a classic.",
+      intro: "NumPy and Pandas are the core of Python's data-handling stack — NumPy for fast numerical arrays, Pandas for tabular data (DataFrames). They feed every ML model on my resume, and 'why NumPy over lists?' is a classic.",
       deep: [
         ["NumPy ndarray", "A contiguous, fixed-type n-dimensional array enabling vectorised operations executed in fast C — no Python loops."],
         ["Vectorization & broadcasting", "Apply operations across whole arrays at once (vectorization); broadcasting stretches shapes so arrays of different sizes combine without explicit loops."],
@@ -2135,7 +2135,7 @@
       ],
       code: { lang: "python", text:
 "import numpy as np, pandas as pd\n\na = np.array([1, 2, 3])\na * 2                      # vectorized -> [2 4 6], no loop\n\ndf = pd.read_csv('sales.csv')\ndf.groupby('city')['total'].mean()   # split-apply-combine" },
-      resume: "These power the data prep behind your ML projects. 'Why NumPy over Python lists?' checks whether you understand vectorization and memory layout.",
+      resume: "These power the data prep behind my ML projects. 'Why NumPy over Python lists?' checks whether you understand vectorization and memory layout.",
       qa: [
         ["Why NumPy over Python lists?", "NumPy arrays store data contiguously in a fixed type and run vectorised operations in compiled C, making them orders of magnitude faster and more memory-efficient than looping over Python lists."],
         ["What is broadcasting?", "A NumPy mechanism that automatically stretches arrays of different but compatible shapes so they can be combined element-wise without explicit loops or manual reshaping."],
@@ -2154,7 +2154,7 @@
         ["Ecosystem", "Pairs with Pandas .plot() for quick charts; Seaborn builds on Matplotlib for prettier statistical plots."],
         ["Communication", "Turns numbers into a story stakeholders can read — the last mile of any data project."]
       ],
-      resume: "Matplotlib supports the EDA and evaluation in your ML projects. 'Why visualise during ML?' is the likely question — connect it to spotting data issues and diagnosing fit.",
+      resume: "Matplotlib supports the EDA and evaluation in my ML projects. 'Why visualise during ML?' is the likely question — connect it to spotting data issues and diagnosing fit.",
       qa: [
         ["Why visualise data during machine learning?", "To catch data issues (outliers, imbalance, missing values), understand distributions and relationships, diagnose over/underfitting via loss curves, and communicate results clearly to others — plots reveal what summary numbers hide."],
         ["What's the figure vs axes distinction?", "The figure is the overall canvas/window; axes are individual plotting areas within it. One figure can hold multiple axes (subplots), which is how you build multi-panel visualisations."],
@@ -2223,8 +2223,8 @@
 
   function buildResume(resume) {
     if (!resume) return '';
-    return '<div class="d-section"><h2>On your resume</h2><div class="d-resume">' +
-      '<p class="rlabel">Why it matters for your interview</p><p>' + resume + '</p></div></div>';
+    return '<div class="d-section"><h2>On my resume</h2><div class="d-resume">' +
+      '<p class="rlabel">Why it matters for my interview</p><p>' + resume + '</p></div></div>';
   }
 
   function buildCode(code) {

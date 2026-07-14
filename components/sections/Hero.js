@@ -311,7 +311,7 @@ export default function Hero() {
                             {/* Image Container */}
                             <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl group-hover:border-primary-500 dark:group-hover:border-primary-400 transition-colors duration-300">
                                 <Image
-                                    src="/Nikhil.jpeg"
+                                    src="/Nikhil_Patil_pic.png"
                                     alt="Nikhil Patil"
                                     fill
                                     className="object-cover"
